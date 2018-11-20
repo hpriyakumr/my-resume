@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Project"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Project"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/endblue"
+            android:background="@color/colorPrimaryDark"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="1) TIC-TAC-TOE"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="25dp"
+                        android:text="Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game."
+                        android:textSize="15sp" />
+                </TableRow>
+                <TableRow>
+
+                    <TextView
+                        android:paddingLeft="25dp"
+                        android:text="OPEN SOURCE - https://github.com/hpriyakumr/tic-tac-toe"
+                        android:textColor="@color/endblue"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:paddingLeft="25dp"
+                        android:text="LANGUAGES USED - Java using Android Studio"
+                        android:textColor="@color/endblue"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="2) TRAFFIC RULES HANDBOOK"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="25dp"
+                        android:text="To view all the traffic rules as per Indian Traffic Regulations. Also, to provide a platform for police and people to calculate the bill amount when a traffic violation happens."
+                        android:textSize="15sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:paddingLeft="25dp"
+                        android:text="TEAM MEMBERS - 1"
+                        android:textColor="@color/endblue"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:paddingLeft="25dp"
+                        android:text="LANGUAGES USED - Java, JavaScript, HTML, SQL Database"
+                        android:textColor="@color/endblue"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="3) DATA INTEGRITY PROOFS IN CLOUD STORAGE"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="25dp"
+                        android:text="A proof of data integrity in the cloud which the customer can employ to check the correctness of his data in the cloud. This proof can be agreed upon by both the cloud, the customer and can be incorporated in the service level agreement.Our proof of data integrity protocol just checks the integrity of data ie if the data has been illegally modified or deleted."
+                        android:textSize="15sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:paddingLeft="25dp"
+                        android:text="TEAM MEMBERS - 3"
+                        android:textColor="@color/endblue"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:paddingLeft="25dp"
+                        android:text="LANGUAGES USED - ASP.NET, SQL Server"
+                        android:textColor="@color/endblue"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="4) INSTRUCTOR   PERFORMANCE   PREDICTION"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15dp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="25dp"
+                        android:text="Predicting instructor performance by analyzing the student perception to improve the Education System quality using the questionnaire. The dataset consists of 26 questions as variables (features) and overall assessment as class Label.Support vector machine and Decision Tree Algorithm for Classification and K-Means Algorithm for Cluster analysis were used after feature selection."
+                        android:textSize="15sp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:paddingLeft="25dp"
+                        android:text="TEAM MEMBERS - 2"
+                        android:textColor="@color/endblue"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:paddingLeft="25dp"
+                        android:text="TOOLS USED - Data Mining"
+                        android:textColor="@color/endblue"
+                        android:textSize="15sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+            </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

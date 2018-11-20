@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Academic"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Academic"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/endblue"
+            android:background="@color/colorPrimaryDark"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView android:text="Qualification"
+                android:textSize="9dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_column="1"
+                android:padding="1dip"/>
+            <TextView android:text="Institution"
+                android:textSize="9dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_column="2"
+                android:padding="1dip"/>
+            <TextView android:text="Year"
+                android:textSize="9dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_column="3"
+                android:padding="1dip"/>
+            <TextView android:text="Percentage"
+                android:textSize="9dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_column="4"
+                android:padding="1dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="SSLC"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="1"
+                android:padding="2dip"/>
+            <TextView android:text="St.Joseph's Girls Higher Secondary School, Madurai."
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="2"
+                android:padding="2dip"/>
+            <TextView android:text="2010"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="3"
+                android:padding="2dip"/>
+            <TextView android:text="77%"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="4"
+                android:padding="2dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="HSC"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="1"
+                android:padding="2dip"/>
+            <TextView android:text="M.A.N.U Girls Higher Secondary School, Madurai."
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="2"
+                android:padding="2dip"/>
+            <TextView android:text="2012"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="3"
+                android:padding="2dip"/>
+            <TextView android:text="57%"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="4"
+                android:padding="2dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Diploma(CSE)"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="1"
+                android:padding="2dip"/>
+            <TextView android:text="K.L.Nagaswamy Memorial Polytechnic College, Sivagangai."
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="2"
+                android:padding="2dip"/>
+            <TextView android:text="2014"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="3"
+                android:padding="2dip"/>
+            <TextView android:text="91%"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="4"
+                android:padding="2dip"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="B.E(CSE)"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="1"
+                android:padding="2dip"/>
+            <TextView android:text="Mepco Schlenk Engineering College, Sivakasi."
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="2"
+                android:padding="2dip"/>
+            <TextView android:text="2017"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="3"
+                android:padding="2dip"/>
+            <TextView android:text="65.5%"
+                android:textSize="9dp"
+                android:textColor="@color/endblue"
+                android:textStyle="italic"
+                android:layout_gravity="left"
+                android:layout_column="4"
+                android:padding="2dip"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
